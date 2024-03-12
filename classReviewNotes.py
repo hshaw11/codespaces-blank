@@ -24,4 +24,4 @@
 
 # Print() - A function that prints the value you provide to it.
 
-# Input() - A function that takes in that value you provide to it.
+# Input() - A function that takes in that value you provide
