@@ -47,8 +47,8 @@
 # useing complete sentences. 
 
 #symbols
-# = 
-# == 
+# = , Assignment operator . This will assign a variable to a value.
+# == , Comparison operator. Will evalute if two values are NOT the same
 # =!
 
 # Assignment Operator
