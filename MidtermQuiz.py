@@ -71,6 +71,32 @@
 # the client has provided you with the following meal plan information
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
 
+def mealPlan(dayOfWeek, timeOfDay):
+    if dayOfWeek == 'mon' and timeOfDay=='morning':
+        print('2 eggs and an apple')
+    elif dayOfWeek == 'mon' and timeOfDay =='afternoon':
+        print('bbq grilled chicken and broccoli')
+def mealPlan(dayOfWeek, timeOfDay):
+    if dayOfWeek == 'tue' and timeOfDay=='morning':
+        print('2 eggs and an apple')
+    elif dayOfWeek == 'tue' and timeOfDay =='afternoon':
+        print('bbq grilled chicken and broccoli')
+def mealPlan(dayOfWeek, timeOfDay):
+    if dayOfWeek == 'wed' and timeOfDay=='morning':
+        print('2 eggs and an apple')
+    elif dayOfWeek == 'wed' and timeOfDay =='afternoon':
+        print('bbq grilled chicken and broccoli')
+def mealPlan(dayOfWeek, timeOfDay):
+    if dayOfWeek == 'thur' and timeOfDay=='morning':
+        print('2 eggs and an apple')
+    elif dayOfWeek == 'thur' and timeOfDay =='afternoon':
+        print('bbq grilled chicken and broccoli')
+def mealPlan(dayOfWeek, timeOfDay):
+    if dayOfWeek == 'fri' and timeOfDay=='morning':
+        print('2 eggs and an apple')
+    elif dayOfWeek == 'fri' and timeOfDay =='afternoon':
+        print('bbq grilled chicken and broccoli')
+
 # monday morning= 2 eggs and an apple
 # monday afternoon= bbq grilled chicken and broccoli
 
@@ -101,8 +127,32 @@
 # if none of the conditions are met, inform them to continue studying and try again next semester. 
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
 
+#keywords and clue: function with arguments,
+# conditional logic for if something is true
+# logical operators to compare 2 conditions.
+# 85 > and sat= true - honors
+# 85 < and sat= true - good, but not honors
+# 85 > and sat= false - good, but not honors
+# 85 < and sat= false - try again
+
+def honorsCheck(grade, sat):
+    if grade >= 85 and sat:
+        print('Congrats, you have made honors.')
+    elif grade < 85 and sat:
+        print('Congrats on your grade, however you did not make honors.')
+
 # 10. Create a function that will check the temperature outside. If the user enters
 # a number above 60 degrees it is warm outside, if the enter a number above 80 degrees it is hot outside.
 # if the user enters a number below 50 degrees it is cold outside. and if the tempeature is above 50 degrees,
 # tell the user it's not warm but it's also not too cold. 
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
+        
+# key words and clues: function
+# conditional logical to check for different temps
+# 60 > = warm outside
+# 80 > = hot outside
+# 50 < = cold outside
+# 50 > = not hot, not cold
+
+def temperatureCheck():
+    temp= input("what is the temperature outside?")
