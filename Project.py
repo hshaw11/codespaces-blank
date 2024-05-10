@@ -48,7 +48,22 @@
 
 # we need to create a funciton for removing and sending moneyt from the account. 
 
-def my_function():
-  print("Hello from a function")
+def  addMoney():
+  print("Welcome to Haleems bank app")
+  userAmount = input('add how much money ')
+  print(f' {userAmount}')
 
-  my_function()
+addMoney()
+
+
+def bankAppMain():
+  print("Welcome to Haleems bank app")
+  userAmount = input('how much money you got? ')
+  print(f'you have {userAmount}')
+
+
+
+
+
+
+bankAppMain()
