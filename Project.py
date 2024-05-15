@@ -50,11 +50,15 @@
 
 def  addMoney():
   print("Welcome to Haleems bank app")
-  userAmount = input('add how much money ')
-  print(f' {userAmount}')
+  userAmount = input('how much money would you like to add')
+  print(f'you have added {userAmount}')
 
 addMoney()
 
+def subtractmoney():
+  print("welcome to Haleems bank app")
+  userAmount = input('how much money would you like to subtract')
+  print(f'you have subtracted {userAmount}')
 
 def bankAppMain():
   print("Welcome to Haleems bank app")
